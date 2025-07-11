@@ -1,7 +1,7 @@
 services:
   - type: web
     name: hermit-md
-    repo: https://github.com/A-d-i-t-h-y-a-n/hermit-bot.git
+    repo: https://github.com/twoem/hermit-bot
     branch: main
     env: docker
     dockerfilePath: Dockerfile
@@ -29,7 +29,7 @@ services:
       - key: LOG_MSG
         value: "false"
       - key: AUTO_STATUS_VIEW
-        value: "false"
+        value: "true"
       - key: READ_MSG
         value: "false"
       - key: ALWAYS_ONLINE
